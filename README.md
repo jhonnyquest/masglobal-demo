@@ -27,4 +27,12 @@ following dependencies:
 2. Once you have cloned project then execute the following maven command: ``` mvn clean install ```
 3. Move file ``` {project-root}/target/masglobal.demo.api.jar ``` to your Tomcat server ``` webapps ``` folder
 
+## Features
+- Dependencies manager: Maven 4.0.0
+- Main Framework: SpringBoot 2.1.3.RELEASE
+- Unit ttesting: Junit and Mockito
+- Documentation: Javadoc
+- Java Version: 1.8
+- Logging: Logback
+
 *Any comment or suggestion please let me know by email: jhonnymunoz@gmail.com*
