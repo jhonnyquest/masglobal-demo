@@ -15,9 +15,10 @@ Salary Contract.
 MonthtlySalary * 12
 
 ## Requisites
-Before start build and deploy this project you shold be sure that you haver already installed and configured the 
+Before start build and deploy this project you shold be sure that you have already installed and configured the 
 following dependencies:
 
+- Be sure that you have configured API data source properly, please see ``` src/main/resources/application.properties ``` 
 - Apache Tomcat 7 server or higher (recommended Tomcat 9, you can download from [here](https://tomcat.apache.org/download-90.cgi)) 
 - Apache Maven client 3.6.0 or higher (you can download from [here](https://maven.apache.org/download.cgi))
 
@@ -25,7 +26,7 @@ following dependencies:
 
 1. Clone repository using the following command: ``` git clone https://github.com/jhonnyquest/masglobal-demo.git ```
 2. Once you have cloned project then execute the following maven command: ``` mvn clean install ```
-3. Move file ``` {project-root}/target/masglobal.demo.api.jar ``` to your Tomcat server ``` webapps ``` folder
+3. Move file ``` {project-root}/target/masglobal.demo.api.jar ``` to your Tomcat server and then deploy it
 
 ## Features
 - Dependencies manager: Maven 4.0.0
