@@ -34,7 +34,7 @@ import java.util.Objects;
  */
 
 @RestController
-@RequestMapping("/v1")
+@RequestMapping("/api/v1")
 public class ProxyEndpointController {
 
   private static final org.slf4j.Logger LOGGER =

@@ -39,7 +39,7 @@ import static org.mockito.Mockito.when;
  * @version 1.0
  */
 @RunWith(SpringJUnit4ClassRunner.class)
-@SpringBootTest(classes = DemoApplication.class, properties = {"timezone=GMT", "port=4242"})
+@SpringBootTest(classes = Main.class, properties = {"timezone=GMT", "port=4242"})
 public class BusinessManagerTest {
 
   @Mock

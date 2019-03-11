@@ -2,9 +2,9 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.masglobal</groupId>
-	<artifactId>masglobal-demo</artifactId>
+	<artifactId>masglobal-demo-api</artifactId>
 	<version>1.0.0</version>
-	<packaging>war</packaging>
+	<packaging>jar</packaging>
 	<name>Employee demo test</name>
 	<description>MAS Global demo test</description>
 
@@ -95,10 +95,6 @@
 		<defaultGoal>package</defaultGoal>
 		<finalName>masglobal.demo.api</finalName>
 		<plugins>
-			<plugin>
-				<groupId>org.springframework.boot</groupId>
-				<artifactId>spring-boot-maven-plugin</artifactId>
-			</plugin>
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-compiler-plugin</artifactId>
